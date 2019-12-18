@@ -1,0 +1,67 @@
+
+  main{
+    
+    display:flex;
+    flex-wrap:wrap;
+    /*vh stands for viewport height. used in responsive web design. check index.html for a link*/
+    height:75vh; 
+    width:75vh;
+  }
+  #p2{
+    margin-left: 100px;
+    float: right;
+    margin-left: 5px;
+  }
+  main>div{
+    width:50px;
+    height:55px;
+    border:1px solid black;
+    background-size:cover;
+    background-color: aqua;
+    background-position:50% 50%;
+  }
+
+  /*working on this*/
+  #info{
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  
+.empty {
+  width:70px;
+  height:75px;
+  border:1px solid black;
+  background-size:cover;
+  background-color: aqua;
+  background-position:50% 50%;
+
+}
+
+  .uBoat {
+    background-color: yellow;
+}
+
+.destroyer {
+    background-color:fuchsia;
+}
+
+.carrier {
+    background-color: red;
+}
+
+.battleShip {
+    background-color: green;
+}
+
+.patrolBoat {
+    background-color: white;
+}
+
+.hit {
+    background-image: url();
+}
+
+.miss {
+  background-color: blue;
+  
+}
