@@ -1,0 +1,5 @@
+#myCanvas {
+    /*this puts a black border 1 pixel wide around the canvas element*/
+    border: 5px solid #000000;
+    background-size: 100%;
+}

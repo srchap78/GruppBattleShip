@@ -1,0 +1,77 @@
+*{
+    border-spacing:border-box;
+    
+  }
+
+  fieldset.ask{
+    border:5px outset brown;
+  }
+
+  main{
+    display:flex;
+    flex-wrap:wrap;
+    height:75vh;
+    width:75vh;
+  }
+  main>div{
+    width:50px;
+    height:55px;
+    border:1px solid black;
+    background-size:cover;
+    background-color: aqua;
+    background-position:50% 50%;
+  }
+  
+  .canoe{
+    background-image:url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F_oBqFdVZgFmU%2FShNPnsM6rkI%2FAAAAAAAAAX4%2FPXNJQoIT-TU%2Fs400%2FCanoe_by_Wayne_Hamilton_2.jpg&f=1&nofb=1')
+  }
+  
+.empty {
+  width:70px;
+  height:75px;
+  border:1px solid black;
+  background-size:cover;
+  background-color: aqua;
+  background-position:50% 50%;
+
+}
+
+
+  .torpedoe{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.turbosquid.com%2FPreview%2F000298%2F646%2F5S%2F3d-model-ww1-torpedo_D.jpg&f=1&nofb=1");
+  }
+
+  .bang{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F9xNDvLlwR2GT6%2Fgiphy.gif&f=1&nofb=1");
+  }
+
+  /* /* test code for colorful ships */
+  .uBoat {
+    background-color: yellow;
+}
+
+.destroyer {
+    background-color:fuchsia;
+}
+
+.carrier {
+    background-color: red;
+}
+
+.battleShip {
+    background-color: green;
+}
+
+.patrolBoat {
+    background-color: white;
+}
+
+.hit {
+    background-image: url();
+}
+
+.miss {
+  background-color: blue;
+  
+}
+/* end of colorful ships test code */ 

@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- document type HTML5 -->
+
+<html>
+<!-- all HTML of this page -->
+
+<head>
+  <!-- our meta data about this page -->
+
+  <title>Testing Canvas</title> <!-- page title -->
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta charset="UTF-8"> <!-- using utf8 to support åäö -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!--load jquery-->
+  <!-- We can put more tags here if we want -->
+
+</head>
+
+<body onload="drawGrid()">
+  <!-- HTML content to show to users -->
+  <!--This is for click counter
+  <center><button onclick="clickCounter()">Click Here</button></center>
+  <center>
+    <h1>CLICK COUNTER</h1>
+  </center>-->
+
+  <center>
+    <canvas id="myCanvas" width="600" height="600">
+      Canvas doesn't work with your crappy browser!
+      <p id="res"></p>
+    </canvas>
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
